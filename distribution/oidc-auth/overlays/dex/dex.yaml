@@ -10,7 +10,7 @@ spec:
     helm:
       parameters:
       - name: configSecret.create
-        value: "true"
+        value: "false"
       - name: configSecret.name
         value: dex-config
     repoURL: https://charts.dexidp.io
