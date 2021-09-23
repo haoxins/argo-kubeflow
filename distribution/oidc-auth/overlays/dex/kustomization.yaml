@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - ../../base
-- auth-virtual-service.yaml
+# - auth-virtual-service.yaml
 - dex-config-secret.yaml
 - dex.yaml
 
