@@ -17,7 +17,7 @@ spec:
   - to:
     - operation:
         hosts:
-        - <<__subdomain_dashboard__>>.<<__domain__>>
-        # - <<__subdomain_kubecost__>>.<<__domain__>>
-        - <<__subdomain_serving__>>.<<__domain__>>
-        - "*.<<__subdomain_serving__>>.<<__domain__>>"
+        - dashboard.kubeflow.awx.im
+        # - cost.kubeflow.awx.im
+        - serving.kubeflow.awx.im
+        - "*.serving.kubeflow.awx.im"

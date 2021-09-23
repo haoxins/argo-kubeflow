@@ -14,11 +14,11 @@ spec:
   - to:
     - operation:
         hosts:
-        - <<__subdomain_auth__>>.<<__domain__>>
-        - <<__subdomain_dashboard__>>.<<__domain__>>
-        - <<__subdomain_serving__>>.<<__domain__>>
-        - "*.<<__subdomain_serving__>>.<<__domain__>>"
-        # - <<__subdomain_kubecost__>>.<<__domain__>>
+        - auth.kubeflow.awx.im
+        - dashboard.kubeflow.awx.im
+        - serving.kubeflow.awx.im
+        - "*.serving.kubeflow.awx.im"
+        # - cost.kubeflow.awx.im
 ---
 apiVersion: security.istio.io/v1beta1
 kind: AuthorizationPolicy

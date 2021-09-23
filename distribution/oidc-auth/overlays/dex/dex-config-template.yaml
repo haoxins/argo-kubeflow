@@ -1,4 +1,4 @@
-issuer: https://<<__subdomain_auth__>>.<<__domain__>>
+issuer: https://auth.kubeflow.awx.im
 storage:
   type: kubernetes
   config:
@@ -24,6 +24,6 @@ staticClients:
   redirectURIs:
   - "/login/oidc"
   # TODO
-  # - https://<<__subdomain_dashboard__>>.<<__domain__>>/oauth2/callback
+  # - https://dashboard.kubeflow.awx.im/oauth2/callback
   name: Dex Login Application
   secret:

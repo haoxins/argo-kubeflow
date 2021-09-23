@@ -13,4 +13,4 @@ spec:
   - to:
     - operation:
         hosts:
-        - <<__subdomain_kiali__>>.<<__domain__>>
+        - kiali.kubeflow.awx.im

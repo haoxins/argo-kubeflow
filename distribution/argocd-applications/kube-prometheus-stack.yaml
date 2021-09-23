@@ -28,7 +28,7 @@ spec:
       - name: grafana.deploymentStrategy.type
         value: Recreate
       - name: grafana.grafana\.ini.server.root_url
-        value: https://<<__subdomain_grafana__>>.<<__domain__>>/grafana/
+        value: https://grafana.kubeflow.awx.im/grafana/
       - name: grafana.grafana\.ini.server.serve_from_sub_path
         value: "true"
       - name: grafana.plugins[0]

@@ -46,7 +46,7 @@ spec:
       - name: cr.spec.external_services.grafana.auth.username
         value: admin
       - name: cr.spec.external_services.grafana.url
-        value: https://<<__subdomain_grafana__>>.<<__domain__>>/grafana
+        value: https://grafana.kubeflow.awx.im/grafana
       - name: cr.spec.external_services.grafana.in_cluster_url
         value: http://kube-prometheus-stack-grafana.monitoring:80/grafana
       - name: cr.spec.external_services.grafana.dashboards[0].name

@@ -8,8 +8,8 @@ spec:
   issuerRef:
     name: gateways-issuer
     kind: ClusterIssuer
-  commonName: <<__subdomain_dashboard__>>.<<__domain__>>
+  commonName: dashboard.kubeflow.awx.im
   dnsNames:
-  - <<__subdomain_dashboard__>>.<<__domain__>>
-  - <<__subdomain_serving__>>.<<__domain__>>
-  - "*.<<__subdomain_serving__>>.<<__domain__>>"
+  - dashboard.kubeflow.awx.im
+  - serving.kubeflow.awx.im
+  - "*.serving.kubeflow.awx.im"

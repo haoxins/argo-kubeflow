@@ -4,4 +4,4 @@ metadata:
   name: config-domain
   namespace: knative-serving
 data:
-  <<__subdomain_serving__>>.<<__domain__>>: ""
+  serving.kubeflow.awx.im: ""

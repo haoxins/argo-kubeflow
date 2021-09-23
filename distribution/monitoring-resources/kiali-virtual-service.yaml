@@ -7,7 +7,7 @@ spec:
   gateways:
   - monitoring-gateway
   hosts:
-  - <<__subdomain_kiali__>>.<<__domain__>>
+  - kiali.kubeflow.awx.im
   http:
   - headers:
       request:

@@ -8,7 +8,7 @@ spec:
     istio: ingressgateway
   servers:
   - hosts:
-    - <<__subdomain_auth__>>.<<__domain__>>
+    - auth.kubeflow.awx.im
     port:
       name: http
       number: 80
@@ -16,7 +16,7 @@ spec:
     tls:
       httpsRedirect: true
   - hosts:
-    - <<__subdomain_auth__>>.<<__domain__>>
+    - auth.kubeflow.awx.im
     port:
       name: https
       number: 443
